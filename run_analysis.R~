@@ -7,7 +7,8 @@
 # contains the average mean and standard deviation measurements for 
 # each variable for each "Subject" and "Activity.
 #
-# INSTRUCTIONS
+#
+# INSTRUCTIONS:
 #
 # 1. You must have the plyr and reshape2 libraries installed.
 #

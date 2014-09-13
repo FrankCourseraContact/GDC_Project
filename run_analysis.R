@@ -95,7 +95,7 @@ DataFinal <- dcast(DataMelt, SUBJECT + ACTIVITIES ~ variable, mean)
 # GCD_Project_Dataset.csv
 # GCD_Project_Dataset.txt
 write.csv(DataFinal, file = "GCD_Project_Dataset.csv")
-write.table(DataFinal, "GCD_Project_Dataset.txt", sep=",") 
+write.table(DataFinal, "GCD_Project_Dataset.txt", sep=",", row.name=FALSE) 
 
 
 
